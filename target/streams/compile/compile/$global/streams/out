@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/satit.pon/github/satitpongbundit/spark/src/main/scala/com/github/satitpongbundit/spark/TFIDFApp.scala:18:41: not found: value rawFeatures[0m
+[0m[[0m[31merror[0m] [0m[0m        val idf = new IDF().setInputCol(rawFeatures).setOutputCol("features")[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
