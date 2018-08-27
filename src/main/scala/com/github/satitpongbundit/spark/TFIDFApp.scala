@@ -1,7 +1,7 @@
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.ml.feature.{HashingTF, IDF, Tokenizer}
 
-object TFIDFApp {
+object TfIdfApp {
     def main(args: Array[String]) {
         val spark = SparkSession.builder.appName("TF-IDF Application").getOrCreate()
         val sentenceData = spark.createDataFrame(
@@ -19,5 +19,6 @@ object TFIDFApp {
         val idfModel = idf.fit(featurizedData)
         val rescaledData = idfModel.transform(featurizedData)
         rescaledData.select("label", "features").show(false)
+        spark.stop()
     }
 }
