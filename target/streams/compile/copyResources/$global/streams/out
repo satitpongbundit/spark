@@ -1,2 +1,3 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/satit.pon/github/satitpongbundit/spark/src/main/resources/people.txt,/Users/satit.pon/github/satitpongbundit/spark/target/scala-2.11/classes/people.txt)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/satit.pon/github/satitpongbundit/spark/src/main/resources/people.json,/Users/satit.pon/github/satitpongbundit/spark/target/scala-2.11/classes/people.json)[0m

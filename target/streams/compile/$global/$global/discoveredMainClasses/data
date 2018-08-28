@@ -1,1 +1,1 @@
-["ChiSquareTestApp","CorrelationApp","CountVectorizerExample","FeatureHasherExample","KMeansExample","PipelineApp","SimpleApp","TfIdfApp","Word2VecExample"]
+["ChiSquareTestApp","CorrelationApp","CountVectorizerExample","FeatureHasherExample","KMeansExample","PipelineApp","SimpleApp","SparkSQLExample","TfIdfApp","Word2VecExample"]

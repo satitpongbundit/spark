@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/satit.pon/github/satitpongbundit/spark/src/main/scala/com/github/satitpongbundit/spark/examples/ml/CountVectorizerExample.scala:16:35: value setOututCol is not a member of org.apache.spark.ml.feature.CountVectorizer[0m
-[0m[[0m[31merror[0m] [0m[0m            .setInputCol("words").setOututCol("features").setVocabSize(3).setMinDF(2).fit(df)[0m
-[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satit.pon/github/satitpongbundit/spark/src/main/scala/spark/examples/sql/SparkSQLExample.scala:61:49: not found: type People[0m
+[0m[[0m[31merror[0m] [0m[0m        val peopleDS = spark.read.json(path).as[People][0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
